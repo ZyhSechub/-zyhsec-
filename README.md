@@ -49,6 +49,8 @@
 | **原始特征数** | 41 个（数值型 + 类别型） |
 
 ### 📁 数据目录结构
+
+```bash
 nsl-kdd/
 ├── KDDTrain+.txt    # 训练集
 └── KDDTest+.txt     # 测试集
@@ -64,8 +66,8 @@ dos	拒绝服务攻击
 probe	探测攻击
 r2l	远程到本地攻击
 u2r	用户到根攻击
-
 🏗️ 四、项目结构
+text
 src/
 ├── 📁 data/                     # 数据处理模块
 │   ├── dataset_config.py        # 数据集配置
@@ -107,6 +109,8 @@ CNN	1D 卷积网络	局部特征提取能力强
 LSTM	长短期记忆网络	适合序列建模，捕捉时序依赖
 🚀 训练功能
 统一训练入口：
+
+bash
 python -m src.training.train
 支持参数：
 
