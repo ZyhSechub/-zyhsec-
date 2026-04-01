@@ -50,7 +50,6 @@
 
 ### 📁 数据目录结构
 
-```bash
 nsl-kdd/
 ├── KDDTrain+.txt    # 训练集
 └── KDDTest+.txt     # 测试集
